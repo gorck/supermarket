@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+ 
+    <constant name="struts.devMode" value="true" />
+ 
+    <package name="ajax" extends="struts-default, json-default" namespace="/ajax">
+<!-- 
+        <action name="loadTurnoDisciplina" method="loadTurnoDisciplina" class="br.unisc.trabalho.action.DisciplinaAction">
+            <result name="combo" type="json">
+                <param name="includeProperties">
+                    ^objetoList\[\d+\]\.idTurnoDisciplina,
+                    ^objetoList\[\d+\]\.dsTurnoDisciplina
+                </param>
+            </result>
+        </action>        
+               
+        <action name="verificaAluno" method="verificaAluno" class="br.unisc.trabalho.action.AlunoAction">
+            <result name="ok" type="json">
+                <param name="includeProperties">                    
+                    ^retorno,
+                    ^nome
+                </param>
+            </result>
+            <result name="erro" type="json">
+                <param name="includeProperties">
+                    ^retorno
+                </param>
+            </result>
+        </action>
+ 
+        <action name="carregaListaPresenca" method="carregaListaPresenca" class="br.unisc.trabalho.action.DisciplinaAction">
+            <result name="success">
+                /WEB-INF/content/table-presenca.jsp
+            </result>
+        </action>
+        <action name="carregaListaAlunosByDisciplina" method="carregaListaAlunosByDisciplina" class="br.unisc.trabalho.action.AlunoAction">
+            <result name="success">
+                /WEB-INF/content/table-matricula.jsp
+            </result>
+        </action>-->
+    </package>
+ 
+</struts>

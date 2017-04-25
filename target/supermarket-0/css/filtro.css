@@ -1,0 +1,51 @@
+.inputSelect {
+    width:216px;
+    height:25px;
+    font-size:12px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+.inputText {
+    height:25px;
+    font-size:12px;
+    margin-bottom: 5px; 
+    margin-left:5px;   
+    width:216px;   
+}
+.atributoCombo{
+    height:25px;
+    font-size:12px;
+    margin-bottom: 5px;
+
+}
+
+.condicaoCombo{
+    height:25px;
+    font-size:12px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.concatenacaoCombo{
+    width: 70px;
+    height:25px;
+    font-size:12px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+
+
+.inputFiltro{
+    height:15px ;
+    font-size:12px;
+    margin-bottom: 1px;
+    margin-left:4px;
+}
+
+#msgFiltroNaoPopulado{
+    margin-left: 148px;
+    margin-top: 2px;
+    color:red;
+}
