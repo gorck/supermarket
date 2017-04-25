@@ -57,5 +57,4 @@
             </div>
             <s:include value="footer.jsp" />
     </body>
-    <script type="text/javascript" src="<%=request.getContextPath()%>/js/item.js"></script>
 </html>
