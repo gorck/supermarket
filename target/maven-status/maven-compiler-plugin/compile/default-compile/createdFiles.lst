@@ -5,6 +5,7 @@ br/unisc/supermarket/action/ConexaoAction.class
 br/unisc/supermarket/model/Compra_.class
 br/unisc/supermarket/model/Item.class
 br/unisc/supermarket/action/CompraAction.class
+br/unisc/supermarket/util/SerialComm.class
 br/unisc/supermarket/model/CompraItem_.class
 br/unisc/supermarket/model/Item_.class
 br/unisc/supermarket/model/Compra.class
