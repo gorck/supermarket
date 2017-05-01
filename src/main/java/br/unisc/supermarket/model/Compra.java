@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlTransient;
 @Table(name = "compra")
 @XmlRootElement
 @NamedQueries({
-    @NamedQuery(name = "Compra.findAll", query = "SELECT c FROM Compra c"),
+    @NamedQuery(name = "Compra.findAll", query = "SELECT c FROM Compra c ORDER BY c.data"),
     @NamedQuery(name = "Compra.findByIdCompra", query = "SELECT c FROM Compra c WHERE c.idCompra = :idCompra"),
     @NamedQuery(name = "Compra.findByData", query = "SELECT c FROM Compra c WHERE c.data = :data")})
 public class Compra implements Serializable {

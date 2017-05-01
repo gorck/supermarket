@@ -3,7 +3,9 @@
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/controller/CompraController.java
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/model/Item.java
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/model/Compra.java
+/home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/action/ShopAction.java
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/controller/ItemController.java
+/home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/action/CompraAction.java
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/controller/CompraItemController.java
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/model/CompraItem.java
 /home/gorck/NetBeansProjects/supermarket/src/main/java/br/unisc/supermarket/action/ConexaoAction.java

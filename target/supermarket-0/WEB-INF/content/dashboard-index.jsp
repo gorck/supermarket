@@ -19,7 +19,7 @@
                         <h3 class="page-title">Menu</h3>
                     </div>
                     <div class="col-md-12 "  style="margin-bottom: 15px; ">
-                        <a href="<%=request.getContextPath()%>/consultar">
+                        <a href="<%=request.getContextPath()%>/consulta">
                             <div class=" col-md-6 " style="">
                                 <div class="col-md-12 bg-amber fg-white" style="">
                                     </br>
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="<%=request.getContextPath()%>/show-list">
+                        <a href="<%=request.getContextPath()%>/compra">
                             <div class=" col-md-6 row">
                                 <div class=" col-md-12 bg-darkGreen fg-white " style=" ">
                                     </br>

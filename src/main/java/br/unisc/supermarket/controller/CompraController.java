@@ -2,6 +2,7 @@ package br.unisc.supermarket.controller;
 
 import br.unisc.supermarket.model.Compra;
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 
@@ -63,6 +64,10 @@ public class CompraController implements Serializable {
         } finally {
             em.close();
         }
+    }
+
+    public List<Compra> findAll() {
+        return (emf.createEntityManager().createNamedQuery("Compra.findAll").getResultList());
     }
 
 }
